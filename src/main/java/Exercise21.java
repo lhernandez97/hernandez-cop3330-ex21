@@ -55,7 +55,7 @@ public class Exercise21 {
                 System.out.print("That is an invalid month number.");
         }
         //tell the user the month for the number they selected
-        if(month > 1 && month <= 12) {
+        if(month >= 1 && month <= 12) {
             System.out.printf("The name of the month is %s.", month_name);
         }
     }
